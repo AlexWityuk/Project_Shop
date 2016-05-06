@@ -1,6 +1,8 @@
 <?php
 
 return array(
-    '' => 'site/index',//actionIndex в SiteController
+    // Главная страница
+    'index.php' => 'site/index', // actionIndex в SiteController
+    '' => 'site/index', // actionIndex в SiteController
 );
 

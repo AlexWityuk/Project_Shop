@@ -1,16 +1,18 @@
 <?php
-//FRONT CONTROLLER
 
-//1. Общие настройки
-// отображение ошибок
+// FRONT CONTROLLER
+
+// Общие настройки
 ini_set('display_errors',1);
 error_reporting(E_ALL);
 
-//2. Подключение файлов системы
+session_start();
+
+// Подключение файлов системы
 define('ROOT', dirname(__FILE__));
-define('DS', DIRECTORY_SEPARATOR);
+require_once(ROOT.'/components/Autoload.php');
 
-require_once (ROOT . DS . 'autoload.php');
 
-$router = new components\Router();
+// Вызов Router
+$router = new Router();
 $router->run();
