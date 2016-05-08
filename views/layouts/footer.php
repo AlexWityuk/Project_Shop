@@ -1,62 +1,169 @@
-<div class="footer">
-	<div class="container">
-	   <div class="footer_top">
-		<div class="col-md-4 box_3">
-			<h3>Our Stores</h3>
-			<address class="address">
-              <p>9870 St Vincent Place, <br>Glasgow, DC 45 Fr 45.</p>
-              <dl>
-                 <dt></dt>
-                 <dd>Freephone:<span> +1 800 254 2478</span></dd>
-                 <dd>Telephone:<span> +1 800 547 5478</span></dd>
-                 <dd>FAX: <span>+1 800 658 5784</span></dd>
-                 <dd>E-mail:&nbsp; <a href="mailto@example.com">info(at)buyshop.com</a></dd>
-              </dl>
-           </address>
-           <ul class="footer_social">
-			  <li><a href=""> <i class="fb"> </i> </a></li>
-			  <li><a href=""><i class="tw"> </i> </a></li>
-			  <li><a href=""><i class="google"> </i> </a></li>
-			  <li><a href=""><i class="instagram"> </i> </a></li>
-		   </ul>
+<footer id="footer"><!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<h2><span>e</span>-shopper</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="template/images/home/iframe1.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="template/images/home/iframe2.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="template/images/home/iframe3.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="template/images/home/iframe4.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="template/images/home/map.png" alt="" />
+							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-4 box_3">
-			<h3>Blog Posts</h3>
-			<h4><a href="#">Sed ut perspiciatis unde omnis</a></h4>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced</p>
-			<h4><a href="#">Sed ut perspiciatis unde omnis</a></h4>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced</p>
-			<h4><a href="#">Sed ut perspiciatis unde omnis</a></h4>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced</p>
+		
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Service</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Online Help</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Order Status</a></li>
+								<li><a href="#">Change Location</a></li>
+								<li><a href="#">FAQ’s</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Quock Shop</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">T-Shirt</a></li>
+								<li><a href="#">Mens</a></li>
+								<li><a href="#">Womens</a></li>
+								<li><a href="#">Gift Cards</a></li>
+								<li><a href="#">Shoes</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Policies</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Terms of Use</a></li>
+								<li><a href="#">Privecy Policy</a></li>
+								<li><a href="#">Refund Policy</a></li>
+								<li><a href="#">Billing System</a></li>
+								<li><a href="#">Ticket System</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>About Shopper</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Company Information</a></li>
+								<li><a href="#">Careers</a></li>
+								<li><a href="#">Store Location</a></li>
+								<li><a href="#">Affillate Program</a></li>
+								<li><a href="#">Copyright</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1">
+						<div class="single-widget">
+							<h2>About Shopper</h2>
+							<form action="#" class="searchform">
+								<input type="text" placeholder="Your email address" />
+								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+								<p>Get the most recent updates from <br />our site and be updated your self...</p>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
 		</div>
-		<div class="col-md-4 box_3">
-			<h3>Support</h3>
-			<ul class="list_1">
-				<li><a href="#">Terms & Conditions</a></li>
-				<li><a href="#">FAQ</a></li>
-				<li><a href="#">Payment</a></li>
-				<li><a href="#">Refunds</a></li>
-				<li><a href="#">Track Order</a></li>
-				<li><a href="#">Services</a></li>
-			</ul>
-			<ul class="list_1">
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Press</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-			<div class="clearfix"> </div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
+					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+				</div>
+			</div>
 		</div>
-		<div class="clearfix"> </div>
-		</div>
-		<div class="footer_bottom">
-			<div class="copy">
-                <p>Copyright © 2015 Buy_shop. All Rights Reserved.<a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-	        </div>
-	    </div>
-	</div>
-</div>
+		
+	</footer><!--/Footer-->
+	
+
+  
+    <script src="template/js/jquery.js"></script>
+	<script src="template/js/bootstrap.min.js"></script>
+	<script src="template/s/jquery.scrollUp.min.js"></script>
+	<script src="template/js/price-range.js"></script>
+    <script src="template/js/jquery.prettyPhoto.js"></script>
+    <script src="template/js/main.js"></script>
 </body>
 </html>
 

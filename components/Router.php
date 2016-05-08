@@ -51,17 +51,17 @@ class Router
 
                 // Получаем внутренний путь из внешнего согласно правилу.
                 $internalRoute = preg_replace("~$uriPattern~", $path, $uri);
-                echo 'internalRoute:'.$internalRoute.'</br>';
+                //echo 'internalRoute:'.$internalRoute.'</br>';
                 // Определить контроллер, action, параметры
 
                 $segments = explode('/', $internalRoute);
                 array_shift($segments);
-                foreach ($segments as $value){
+                /*foreach ($segments as $value){
                     echo 'segments:'.$value.'</br>';
-                }
+                }*/
                 $controllerName = array_shift($segments) . 'Controller';
                 $controllerName = ucfirst($controllerName);
-                echo 'controllerName:'.$controllerName.'</br>';
+                //echo 'controllerName:'.$controllerName.'</br>';
                 $actionName = 'action' . ucfirst(array_shift($segments));
 
                 $parameters = $segments;
@@ -73,8 +73,8 @@ class Router
                 if (file_exists($controllerFile)) {
                     include_once($controllerFile);
                 }
-                echo '<br>Класс:'.$controllerName;
-                echo '<br>Метод:'.$actionName;
+                //echo '<br>Класс:'.$controllerName;
+                //echo '<br>Метод:'.$actionName;
                 // Создать объект, вызвать метод (т.е. action)
                 $controllerObject = new $controllerName;
 
